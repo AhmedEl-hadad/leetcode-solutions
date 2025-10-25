@@ -17,7 +17,25 @@ It serves as:
 
 ---
 
+## 🏆 Goals
+
+1. Maintain a **professional and organized repository** of algorithmic problem solving.
+2. Track personal growth over time with measurable stats.
+3. Provide reusable reference solutions for future projects or interviews.
+4. Build **GitHub presence** with meaningful, non-random commits.
+
+---
+
 ## 🔍 Repository Structure
 
 Problems are organized by **difficulty**:
 
+
+```
+leetcode-solutions/
+│
+├── Easy/ -> Solutions for Easy-level problems
+├── Medium/ -> Solutions for Medium-level problems
+├── Hard/ -> Solutions for Hard-level problems
+└── README.md
+```
