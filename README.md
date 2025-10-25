@@ -1,2 +1,12 @@
-# leetcode-solutions
-A personal collection of LeetCode solutions in JavaScript, organized by difficulty and category. Tracks problem-solving progress and serves as a coding reference.
+# LeetCode Solutions
+
+Tracking my LeetCode journey with solutions in JavaScript/TypeScript.
+
+## Stats
+- Solved: 150 problems
+- Languages: JavaScript, TypeScript
+
+## Table of Contents
+- [Easy](Easy/)
+- [Medium](Medium/)
+- [Hard](Hard/)
