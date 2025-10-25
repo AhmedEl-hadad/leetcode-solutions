@@ -1,25 +1,29 @@
 /**
- * Problem: Longest Balanced Subarray
+ * Problem: Longest Balanced Subarray (Optimized)
  * Difficulty: Hard
- * LeetCode Link: [Insert link if available]
  *
  * Description:
- * Given an integer array `nums`, a subarray is balanced if the number of distinct
- * even numbers equals the number of distinct odd numbers. This function returns
- * the length of the longest balanced subarray using an optimized segment-tree approach.
+ * Given an integer array `nums`, a subarray is balanced if the number of distinct 
+ * even numbers equals the number of distinct odd numbers. 
+ * This optimized function uses a segment tree to efficiently find the length 
+ * of the longest balanced subarray.
  *
  * Approach:
- * 1. Use a segment tree to track the difference between counts of distinct even
+ * 1. Use a segment tree to track the difference between counts of distinct even 
  *    and odd numbers in subarrays.
- * 2. Maintain the last occurrence of each number to properly update the difference
- *    only for the current subarray range.
- * 3. For each index r, update the segment tree with +1 if the number is even, -1 if odd.
- * 4. Query the leftmost index l where the difference is zero to find the longest balanced subarray ending at r.
+ * 2. Maintain a map of the last occurrence of each number to correctly update 
+ *    the difference for the current subarray range.
+ * 3. For each index `r`, update the segment tree:
+ *      - Add +1 for even numbers, -1 for odd numbers to the range (prev+1, r].
+ * 4. Query the leftmost index `l` in [0..r] where the difference is zero.
+ * 5. The longest balanced subarray ending at `r` is `r - l + 1`.
  *
- * Time Complexity: O(n log n), due to segment tree updates and queries.
- * Space Complexity: O(n), for segment tree arrays and lastIndex map.
+ * Time Complexity: O(n log n) — segment tree updates and queries.
+ * Space Complexity: O(n) — for segment tree arrays and lastIndex map.
+ *
+ * @param {number[]} nums
+ * @return {number}
  */
-
 var longestBalanced = function(nums) {
     const n = nums.length;
     if (n === 0) return 0;
@@ -72,7 +76,7 @@ var longestBalanced = function(nums) {
         return findLeftmostZero(node * 2 + 1, mid + 1, r, ql, qr);
     }
 
-    const lastIndex = new Map(); // last occurrence index for each value
+    const lastIndex = new Map();
     let ans = 0;
 
     for (let r = 0; r < n; r++) {
