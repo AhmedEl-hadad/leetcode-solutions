@@ -3,6 +3,8 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/AhmedEl-hadad/leetcode-solutions?style=social)](https://github.com/AhmedEl-hadad/leetcode-solutions/stargazers)
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode_Profile-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/Ahmed_Elhadad/)
+[![LeetCode Solved](https://img.shields.io/badge/Solved_Problems-🔄_Auto_Update-orange?style=flat)](https://leetcode.com/u/Ahmed_Elhadad/)
 
 ---
 
