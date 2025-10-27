@@ -4,7 +4,13 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/AhmedEl-hadad/leetcode-solutions?style=social)](https://github.com/AhmedEl-hadad/leetcode-solutions/stargazers)
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode_Profile-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/Ahmed_Elhadad/)
-[![LeetCode Solved](https://img.shields.io/badge/Solved_Problems-🔄_Auto_Update-orange?style=flat)](https://leetcode.com/u/Ahmed_Elhadad/)
+
+---
+
+<p align="center">
+  <!-- LeetCoed card -->  
+  <a href="https://leetcode.com/u/Ahmed_Elhadad/"><img src="https://leetcard.jacoblin.cool/Ahmed_Elhadad?theme=dark&font=Fira%20Code&ext=contest" alt="LeetCode Stats" width="400" style="margin: 20px 0;" /></a>
+</p>
 
 ---
 
